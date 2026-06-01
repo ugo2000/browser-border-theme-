@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Browser Border Theme - Privacy Policy</title>
+<style>
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #333; }
+h1 { font-size: 24px; border-bottom: 2px solid #5af; padding-bottom: 8px; }
+h2 { font-size: 18px; margin-top: 28px; color: #555; }
+p, li { font-size: 14px; }
+ul { padding-left: 20px; }
+.highlight { background: #f0f4ff; border-left: 3px solid #5af; padding: 10px 16px; margin: 16px 0; font-size: 13px; }
+footer { margin-top: 40px; font-size: 12px; color: #999; }
+</style>
+</head>
+<body>
+
+<h1>Browser Border Theme — Privacy Policy</h1>
+<p><strong>Last updated:</strong> June 1, 2026</p>
+
+<h2>Overview</h2>
+<p>Browser Border Theme is a browser extension that adds dynamic colored borders to web pages. The borders react to audio playing in the active tab, providing a visual music experience.</p>
+
+<div class="highlight">
+<strong>We do not collect, store, transmit, or share any personal data.</strong> This extension works entirely locally within your browser.
+</div>
+
+<h2>Permissions & What They Do</h2>
+<ul>
+  <li><strong>tabCapture</strong> — Captures audio from the active browser tab to analyze frequency data (bass, mid, treble, energy). This data is used <em>only</em> to animate the colored border. Audio is never recorded, stored, or sent anywhere.</li>
+  <li><strong>offscreen</strong> — Creates an offscreen document to process the audio stream using the Web Audio API. No data leaves this document.</li>
+  <li><strong>storage</strong> — Saves your preferences (theme, effect, on/off state) locally in your browser. No data is synced to external servers.</li>
+  <li><strong>scripting</strong> — Injects the border UI into web pages.</li>
+  <li><strong>activeTab</strong> — Accesses the current tab to apply the border effect.</li>
+</ul>
+
+<h2>Data Handling</h2>
+<ul>
+  <li>No user data is collected</li>
+  <li>No analytics or tracking</li>
+  <li>No cookies</li>
+  <li>No external network requests</li>
+  <li>No server communication of any kind</li>
+  <li>Audio analysis happens locally and is discarded in real-time (not recorded)</li>
+</ul>
+
+<h2>Open Source</h2>
+<p>The source code of this extension is publicly available on GitHub for review:</p>
+<p><a href="https://github.com/ugo2000/browser-border-theme">github.com/ugo2000/browser-border-theme</a></p>
+
+<h2>Contact</h2>
+<p>Questions or concerns? Open an issue on the GitHub repository above, or contact via the Chrome Web Store listing.</p>
+
+<footer>&copy; 2026 Browser Border Theme. All rights reserved.</footer>
+
+</body>
+</html>
